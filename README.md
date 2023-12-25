@@ -1,6 +1,8 @@
 # Calories-Burnt-Prediction-Using-Python
+This machine learning project aims to predict calories burnt based on user exercise data. The dataset is initially explored through data analysis and visualization, revealing correlations between variables. Text data, such as gender, is converted to numerical values. Outliers are removed, and the model, an XGBoost Regressor, is trained using Randomized Search CV for hyperparameter tuning. The model is evaluated on test data, achieving a good fit as indicated by metrics like R-squared, and Root Mean Squared Error. The actual vs. predicted plot visually confirms the model's accuracy.
 
 Calories Burnt Prediction Project Summary:
+
 1. Data Collection & Processing:
 Imported necessary libraries for analysis and machine learning.
 Loaded two datasets: 'calories.csv' and 'exercise.csv'.
